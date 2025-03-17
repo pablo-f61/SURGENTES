@@ -1,16 +1,15 @@
-*{
+body{
     padding: 0;
     margin: 0;
-}
-
-body{
-    background-color: rgb(27, 32, 31);
+    background: url(../img/Fondo.jpg);
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 html {
   font-size: 16px;
 }
-
+/*Títulos de páginas*/
 .titulo{
     text-align: center;
     font-size: 5vw;
@@ -19,10 +18,34 @@ html {
     font-family: "Rowdies", serif;
     font-style: normal;
   }
+/*Subtítulos*/
+  .titulo2{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 100px;
+    color: rgb(138, 52, 200);
+    font-family: "Rowdies", serif;
+    font-style: normal;
+  }
+
+/*Imagen de fondo*/
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 10px solid rgb(36, 51, 52);
+}
+
+.video {
+  width: 100%;
+  max-width: 900px; /* Ajustá este valor según lo que te parezca mejor */
+  aspect-ratio: 16/9; /* Mantiene la proporción correcta del video */
+  display: block;
+  margin: auto;
+}
 
   .letras {
     color: #ecb3b3;
-    font-size: 10vw;;
+    font-size: 10vw;
     font-size: 5rem;
     margin: 100px;
   }
@@ -71,7 +94,7 @@ html {
     border-radius: 20px;
     gap: 1em;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transform: scale(2.2); /* Agranda el botón ligeramente */
+    transform: scale(1.1); /* Agranda el botón ligeramente */
 
   }
   
@@ -132,7 +155,7 @@ h2{
 iframe{
   margin: 200px;
   padding: 2rem;
-    display: flex;
+  display: flex;
   align-items: center;
   margin-bottom: 20px;
   display: flex;
@@ -140,18 +163,12 @@ iframe{
   margin-bottom: 20px;
 }
 
-iframe {
-  flex: 2; /* El video ocupa 2/3 del espacio */
-  width: 100%;
-  max-width: 2240px; /* Asegúrate de que no sea demasiado grande */
-  aspect-ratio: 16/9;
-}
-
 article {
   flex: 1; /* El texto ocupa 1/3 del espacio */
   padding: 5px;
   font-family: "Caveat", serif;                     /* 'Rowdies', sans-serif;*/
   color: #343444;
+  background-color: #020414;
 }
 
  article p a{
@@ -170,7 +187,9 @@ article {
   display: flex;
   align-items: center;
   margin-bottom: 1000px;
+  
 }
+
 
 .vidLe{/*Letras con nombres cursivas*/
   margin: 150px;
@@ -186,12 +205,21 @@ article {
   font-family: "Caveat", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 1em;
+  font-size: 4rem;
   color: #a7d9e7;
 }
+video{
+  width: 100%;
+  max-width: 900px; /* Ajustá este valor según lo que te parezca mejor */
+  aspect-ratio: 16/9; /* Mantiene la proporción correcta del video */
+  display: block;
+  margin: auto;
+}
+
+
 
 .correo {
-  background-color: #3e9fef;
+  background-color: #2d8cda;
   text-align: center;
   border: 10px solid rgb(203, 183, 242);
   padding: 1vw;
