@@ -65,7 +65,7 @@ body{
 nav a {
     text-align: center;
     text-decoration: none;
-    background: rgb(241, 224, 145);
+    background: rgb(61, 208, 156);
   }
 
   ul li {
@@ -82,7 +82,7 @@ nav a {
     display: inline-block; /* Asegura que se comporte como botón */
     transition: transform 0.2s ease, background-color 0.2s ease; /* Transición suave */
     text-align: center;
-    background: rgb(241, 224, 145);
+    background: rgb(98, 204, 197);
   }
 
   a:visited {
