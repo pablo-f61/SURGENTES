@@ -94,7 +94,7 @@ nav a {
     background-color: rgb(104, 103, 126);
     border-radius: 20px;
     gap: 1vw;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(49, 82, 100, 0.1);
     transform: scale(1.1); /* Agranda el botón ligeramente */
 
   }
