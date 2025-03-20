@@ -2,7 +2,7 @@
 :root {
   --color-primario: hsl(176, 14%, 45%);
   --color-secundario: #31354b;
-  --color-fondo: #bccfdf;
+  --color-fondo: #6d8aa1;
 }
 
 body{
@@ -192,7 +192,7 @@ video{
 }
 
 .correo {
-  background-color: var(--color-secundario);
+  background-color: var(--color-fondo);
   text-align: center;
   border: 10px solid var(--color-primario);
   padding: 1vw;
