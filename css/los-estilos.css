@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se alineen en columna */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #130f0f;
+}
+
+/*Clases heredadas para el navegador y títulos*/
+
+.titulo{
+    text-align: center;
+    font-size: 5vw;
+    margin-top: auto;
+    color: aqua;
+    font-family: "Rowdies", serif;
+    font-style: normal;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: auto;
+    color: aquamarine;
+    font-family: "Rowdies", serif;
+    font-style: normal;
+}
+
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    background: rgb(61, 208, 156);
+  }
+
+  ul li {
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;  
+  }
+  
+  a {
+    text-decoration: none;
+    padding: 10px; /* Ajusta según tu diseño */
+    border-radius: 20px;
+    display: inline-block; /* Asegura que se comporte como botón */
+    transition: transform 0.2s ease, background-color 0.2s ease; /* Transición suave */
+    text-align: center;
+    background: rgb(98, 204, 197);
+  }
+
+  a:visited {
+    background-color: var(--color-secundario);
+    color: #cde0f0;
+  }
+  
+  a:hover {
+    background-color: rgb(104, 103, 126);
+    border-radius: 20px;
+    gap: 1vw;
+    box-shadow: 0 4px 6px rgba(49, 82, 100, 0.1);
+    transform: scale(1.1); /* Agranda el botón ligeramente */
+
+  }
+  
+  a:active {
+    background-color: #f00; /* Cambia el color de fondo al hacer clic */
+    color: #fff; /* Cambia el color del texto */
+    transform: scale(1.2); /* Agranda el botón ligeramente */
+  }
+
+.letras {
+    font-size: 2vw;
+    margin: 100p
+}
+
+.carrusel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 120px; /* Ajustá el valor según lo que necesites */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carrusel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carrusel-item img {
+    width: 100%;
+    display: block;
+}
+
+.carrusel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.carrusel-control.prev {
+    left: 10px;
+}
+
+.carrusel-control.next {
+    right: 10px;
+}
+
+.carrusel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
