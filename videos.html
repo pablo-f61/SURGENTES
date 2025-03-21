@@ -122,13 +122,11 @@
         </a>
       </p>
         <p>Para contactarse con nosotros, completá el formulario:</p>
-        <form id="contact-form" action="https://formsubmit.co/surgentes1@gmail.com" method="post">
-          <input type="hidden" name="_autoresponse" value="Gracias por tu mensaje, te responderemos pronto.">
-          <input type="text" id="name" placeholder="Tu nombre" required>
-          <input type="email" id="email" placeholder="Tu correo" required>
-          <textarea id="message" placeholder="Tu mensaje" required></textarea>
-          <button type="submit">Enviar</button>
-        </form>
+        <form action="https://formsubmit.co/surgentes1@gmail.com" method="POST">
+          <input type="text" name="name" required>
+          <input type="email" name="email" required>
+          <button type="submit">Send</button>
+     </form>
         <p id="status"></p>
       </address>
     </footer>
