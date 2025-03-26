@@ -155,3 +155,9 @@ nav a {
     transform: scale(1.05);
 }
   
+.caras{
+    padding: 15px 30px;
+    margin: 10px;
+    max-width: 600px;
+}
+  

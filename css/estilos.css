@@ -181,8 +181,8 @@ article p a{
   font-style: normal;
   font-size: 4vw;
   color: var(--color-primario);
-
 }
+
 video{
   width: 100%;
   max-width: 900px; /* Ajustá este valor según lo que te parezca mejor */
@@ -203,5 +203,9 @@ video{
   font-size: 1.2em;
 }
 
-/*Botones para los artistas*/
+.caras{
+  border-radius: 100px;
+  margin: 150px;
+
+}
 
