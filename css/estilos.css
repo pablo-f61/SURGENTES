@@ -206,6 +206,11 @@ video{
 .caras{
   border-radius: 100px;
   margin: 150px;
+}
 
+.tamaño-2{ /*Letras cursivas index*/
+  font-size: 2vw;
+  color: var(--color-secundario);
+  font-family: "Caveat", serif;
 }
 
