@@ -205,25 +205,3 @@ video{
 
 /*Botones para los artistas*/
 
-.artistas {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.artistas button {
-  background: linear-gradient(145deg, #e0e0e0, #ffffff);
-  border: none;
-  padding: 15px 30px;
-  margin: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 10px;
-  box-shadow: 4px 4px 8px #b0b0b0, -4px -4px 8px #ffffff;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.artistas button:hover {
-  box-shadow: inset 4px 4px 8px #b0b0b0, inset -4px -4px 8px #ffffff;
-  transform: scale(1.05);
-}
