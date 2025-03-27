@@ -112,10 +112,14 @@ nav a {
   }
 
   .tamaño-2{
-    font-size: 5vw;
+    font-size: 7vw;
     color:var(--color-secundario);
   }
 
+.tamaño-3{
+  font-size: 5vw;
+  color:var(--color-secundario);
+}
 
 h2{
   font-family: "Libre Barcode 128 Text", serif;/*Título con código de barra*/
