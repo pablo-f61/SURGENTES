@@ -193,7 +193,7 @@ article p a{
 video{
   width: 100%;
   max-width: 900px; /* Ajustá este valor según lo que te parezca mejor */
-  aspect-ratio: 16/9; /* Mantiene la proporción correcta del video */
+  aspect-ratio: 16/11; /* Mantiene la proporción correcta del video */
   display: block;
   margin: auto;
 }
